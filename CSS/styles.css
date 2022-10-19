@@ -1,0 +1,373 @@
+.container-fluid {
+  background-color: #950101;
+  z-index: auto;
+  position: relative;
+  padding: 2% 5%;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  margin-left: 15px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.background-img {
+  background-image: url("../stay.jpg");
+  background-color: black;
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 60px;
+}
+
+.skz-title-text {
+  text-align: center;
+  color: white;
+  font-size: 5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#picture {
+  padding: 5%;
+  background-color: black;
+}
+
+.countdown {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.countdown span {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 3rem;
+  margin-left: 0.8rem;
+}
+
+.countdown span:first-of-type {
+  margin-left: 0;
+}
+
+.countdown-circles {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.countdown-circles span {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-circles span:first-of-type {
+  margin-left: 0;
+}
+
+
+/*
+*
+* ==================================================
+* FOR DEMO PURPOSES
+* ==================================================
+*
+*/
+body {
+  min-height: 100vh;
+}
+
+.bg-gradient-4 {
+  background: #007991;
+  background: -webkit-linear-gradient(to right, #007991, #78ffd6);
+  background: linear-gradient(to right, #007991, #78ffd6);
+}
+
+.rounded {
+  border-radius: 1rem !important;
+}
+
+.btn-demo {
+  padding: 0.5rem 2rem !important;
+  border-radius: 30rem !important;
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold !important;
+}
+
+.btn-demo:hover, .btn-demo:focus {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#buttons {
+  padding: 5% 5%;
+  text-align: center;
+  background-color: #950101;
+}
+
+.fa-solid fa-bed {
+  margin-left: 5%;
+}
+
+#buttons {
+  position: relative;
+  z-index: 1;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  background-color: #950101 !important;
+}
+
+.button-title {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#hotel {
+  background-color: black !important;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 1850px;
+  text-align: center;
+}
+
+#carouselExampleControls {
+  padding-bottom: 3%;
+  height: 600px;
+}
+
+.heading {
+  padding: 3%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.carousel {
+  width: 60%;
+  height: 60%;
+  padding-bottom: 20px;
+  margin: 1% 20% 5% 20%;
+}
+
+#about {
+  height: 180px;
+}
+
+.hotel-name {
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-top: 5px;
+}
+
+#stars {
+  padding: 20px;
+}
+
+.check {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.hr {
+  border: 10px solid #950101;
+  color: #950101;
+  border-radius: 5px;
+  width: 90%;
+  margin: auto;
+}
+
+#map-section {
+  margin-top: 220px;
+}
+
+
+#imgZoom {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-top: 100px;
+  margin-bottom: 90px;
+  margin-left: 80px;
+  position: relative;
+}
+
+#overlay {
+  border: 2px solid #950101;
+  width: 250px;
+  height: 250px;
+  background-image: url('/images/map.png');
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 25px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.map{
+  height: 600px;
+  width: auto;
+}
+
+.table {
+  position: static;
+  width: 40%;
+  margin-left: 700px;
+  margin-top: 200px;
+}
+
+.agenda {  
+  margin: auto;
+  width: 80%;
+  padding:6%;
+}
+
+.table {
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+/* Dates */
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: left;
+  margin-right: 10px; 
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em; 
+}
+
+
+/* Times */
+.agenda .agenda-time { width: 140px; } 
+
+/*concert page*/
+
+
+.concert-img {
+  max-width: 50%;
+  margin-top: 80px;
+  margin-left: 50px;
+  border: 1px solid #950101;
+}
+
+#concert-info {
+  height: 800px;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.ticket-text-info {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+/*members*/
+.bangchan {
+margin-top: 100px;
+float: left;
+margin-left: 100px;
+}
+
+.bang-img {
+  width: 340px;
+}
+
+.leeknow {
+  margin-top: 100px;
+  float: left;
+  margin-left: 100px;
+}
+  
+.lee-img {
+  width: 340px;
+}
+
+
+.changbin {
+  margin-top: 100px;
+  float: left;
+  margin-left: 100px;
+}
+  
+.chang-img {
+  width: 340px;
+}
+
+
+.hyunjin {
+  margin-top: 100px;
+  float: left;
+  margin-left: 100px;
+}
+  
+.hyun-img {
+  width: 340px;
+}
+
+
+.jisung {
+  margin-top: 100px;
+  float: left;
+  margin-left: 100px;
+}
+  
+.ji-img {
+  width: 340px;
+}
+
+
+.felix {
+  margin-top: 100px;
+  float: left;
+  margin-left: 100px;
+}
+  
+.felix-img {
+  width: 340px;
+}
+
+
+.seungmin {
+  margin-top: 100px;
+  float: left;
+  margin-left: 100px;
+}
+  
+.seung-img {
+  width: 340px;
+}
+
+.in {
+  margin-top: 100px;
+  float: left;
+  margin-left: 100px;
+}
+  
+.jeong-img {
+  width: 340px;
+}
